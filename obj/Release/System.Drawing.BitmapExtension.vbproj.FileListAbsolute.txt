@@ -1,0 +1,6 @@
+E:\Projects\VB.NET\System.Drawing.BitmapExtension\bin\Release\System.Drawing.BitmapExtension.dll
+E:\Projects\VB.NET\System.Drawing.BitmapExtension\bin\Release\System.Drawing.BitmapExtension.xml
+E:\Projects\VB.NET\System.Drawing.BitmapExtension\obj\Release\System.Drawing.BitmapExtension.Resources.resources
+E:\Projects\VB.NET\System.Drawing.BitmapExtension\obj\Release\System.Drawing.BitmapExtension.vbproj.GenerateResource.Cache
+E:\Projects\VB.NET\System.Drawing.BitmapExtension\obj\Release\System.Drawing.BitmapExtension.dll
+E:\Projects\VB.NET\System.Drawing.BitmapExtension\obj\Release\System.Drawing.BitmapExtension.xml

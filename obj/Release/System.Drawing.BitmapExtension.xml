@@ -1,0 +1,189 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+System.Drawing.BitmapExtension
+</name>
+</assembly>
+<members>
+<member name="F:System.Drawing.BitmapExtension.BitmapExtensions.ShakeBlurFlag.UpDown">
+	<summary>
+ 上下抖动
+ </summary>
+	<remarks></remarks>
+</member><member name="F:System.Drawing.BitmapExtension.BitmapExtensions.ShakeBlurFlag.LeftRight">
+	<summary>
+ 左右抖动
+ </summary>
+	<remarks></remarks>
+</member><member name="F:System.Drawing.BitmapExtension.BitmapExtensions.ShakeBlurFlag.All">
+	<summary>
+ 四向抖动
+ </summary>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.Binarization(System.Drawing.Bitmap,System.Drawing.Color,System.Drawing.Color)">
+	<summary>
+ 二值化
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="color1"></param>
+	<param name="color2"></param>
+	<returns></returns>
+	<remarks>内部调用Gray</remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.Clip(System.Drawing.Bitmap,System.Drawing.Rectangle)">
+	<summary>
+ 剪裁
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="clipRect"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.ColorReverse(System.Drawing.Bitmap)">
+	<summary>
+ 反色
+ </summary>
+	<param name="asBitmap"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.GrayEx(System.Drawing.Bitmap)">
+	<summary>
+ 对比度保留灰化
+ </summary>
+	<param name="asBitmap"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.Gray(System.Drawing.Bitmap,System.Int32[])">
+	<summary>
+ 灰化
+ </summary>
+	<param name="asBitmap"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.GaussianBlur(System.Drawing.Bitmap,System.Byte,System.Drawing.Rectangle)">
+	<summary>
+ 高斯模糊
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="radius">模糊半径</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.Mirror(System.Drawing.Bitmap,System.Drawing.BitmapExtension.BitmapExtensions.MirrorFlag)">
+	<summary>
+ 镜像
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="flag"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.Mosaic(System.Drawing.Bitmap,System.Drawing.Rectangle,System.Byte)">
+	<summary>
+ 马赛克
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="mosaicRect">应用马赛克效果的矩形区域</param>
+	<param name="blocksize">区块大小(4～255)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.MotionBlur(System.Drawing.Bitmap,System.Byte,System.Drawing.BitmapExtension.BitmapExtensions.MotionBlurFlag)">
+	<summary>
+ 运动模糊
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="offset">运动距离</param>
+	<param name="flag">运动方向</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.PsGray(System.Drawing.Bitmap,System.Int32[])">
+	<summary>
+ 灰化
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="mGreyMap"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.Rotate(System.Drawing.Bitmap,System.Int32)">
+	<summary>
+ 旋转
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="angle">旋转角度(以度为单位)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.SetHSL(System.Drawing.Bitmap,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ HSL
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="nHue">色调(-180～180)</param>
+	<param name="nSaturation">饱和度(-100～100)</param>
+	<param name="nLightness">明度(-100～100)</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.RGB2HSL(System.Byte[])">
+	<summary>
+ RGB2HSL
+ </summary>
+	<param name="bpBuffer">图像的ARGB信息</param>
+	<returns>返回图像的HSL信息(H:0～2PI S:0～1 L:0～1)</returns>
+	<remarks>传入的字节数组必须为BGRA形式,返回的HSL数组格式为HSLA</remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.HSL2RGB(System.Single[])">
+	<summary>
+ HSL2RGB
+ </summary>
+	<param name="hslBuffer"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.RGB2LAB(System.Byte[])">
+	<summary>
+ RGB2LAB
+ </summary>
+	<param name="bpBuffer"></param>
+	<returns></returns>
+	<remarks>D65-2</remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.LAB2RGB(System.Single[])">
+	<summary>
+ LAB2RGB
+ </summary>
+	<param name="labBuffer"></param>
+	<returns></returns>
+	<remarks>D65-2</remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.Scale(System.Drawing.Bitmap,System.Single)">
+	<summary>
+ 等比例缩放
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="nScale">缩放比</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.SepiaTone(System.Drawing.Bitmap)">
+	<summary>
+ 泛黄
+ </summary>
+	<param name="asBitmap"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:System.Drawing.BitmapExtension.BitmapExtensions.ShakeBlur(System.Drawing.Bitmap,System.Byte,System.Drawing.BitmapExtension.BitmapExtensions.ShakeBlurFlag)">
+	<summary>
+ 抖动模糊
+ </summary>
+	<param name="asBitmap"></param>
+	<param name="offset">抖动距离</param>
+	<param name="flag">抖动类型</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:System.Drawing.BitmapExtension.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:System.Drawing.BitmapExtension.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:System.Drawing.BitmapExtension.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
